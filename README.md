@@ -114,14 +114,11 @@ El componente JCalendar puede generar warnings en macOS debido a incompatibilida
 4. **Persistencia**: `persistencia.*` - Acceso a datos
 5. **Excepciones**: `excepciones.*` - Manejo de errores
 
-
-## ☕️ Proyecto desarrollado a base de cafeína y pocas horas de sueño para Programación Orientada a Objetos.
-
-
-
 ### Tecnologías Utilizadas
 - **Java 11+**: Lenguaje principal
 - **Swing**: Framework de GUI
 - **JCalendar**: Componente de calendario
 - **CSV**: Formato de persistencia
 - **Maven Central**: Repositorio de dependencias 
+
+### ☕️ Proyecto desarrollado a base de cafeína y pocas horas de sueño para Programación Orientada a Objetos.
