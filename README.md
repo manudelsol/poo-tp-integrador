@@ -19,8 +19,15 @@ Aplicación Java con interfaz gráfica Swing para gestionar eventos y asistentes
 ## 🛠️ Compilación y Ejecución
 
 ### Opción 1: Script Automático
+
+MacOS:
 ```bash
 ./compilar.sh
+```
+
+Windows:
+```bash
+./compilar.bat
 ```
 
 ## 📁 Estructura del Proyecto
@@ -49,7 +56,8 @@ tp-integrador/
 ├── build/                            # Clases compiladas
 ├── eventos.csv                       # Datos de eventos
 ├── asistentes.csv                    # Datos de asistentes
-├── compilar.sh                       # Script de compilación
+├── compilar.sh                       # Script de compilación MacOS
+├── compilar.bat                      # Script de compilación Windows
 └── README.md                         # Esta documentación
 ```
 
