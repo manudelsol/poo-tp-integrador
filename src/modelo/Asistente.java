@@ -3,9 +3,6 @@ package modelo;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
-/**
- * Clase que representa una persona que asiste a eventos
- */
 public class Asistente {
     private int id;
     private String nombre;
@@ -72,11 +69,6 @@ public class Asistente {
         this.telefono = telefono.trim();
     }
     
-    /**
-     * Valida el formato del email usando regex básico
-     * @param email Email a validar
-     * @return true si el formato es válido
-     */
     private boolean validarEmail(String email) {
         return EMAIL_PATTERN.matcher(email).matches();
     }
